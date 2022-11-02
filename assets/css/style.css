@@ -402,7 +402,7 @@ bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 93px;
+    padding: 0 56px;
 }
 
 .logo-mailing{
@@ -410,18 +410,16 @@ bottom: 0;
     color: #fff;
     font-family: 'Play', sans-serif;
     font-weight: 700;
-}
-
-.container-mailing form{
+    padding-right: 50px;
 }
 
 .container-mailing form input{
     font-size: 24px;
     color: rgba(255, 255, 255, .7);
-    width: 400px;
     border: none;
+    width: 400px;
     background: no-repeat top;
-    background-image: linear-gradient(0deg,#0BF4BC 2px,rgba(156,39,176,0) 0),linear-gradient(0deg,#d2d2d2 1px,hsla(0,0%,82%,0) 0);
+    background-image: linear-gradient(0deg,#0BF4BC 2px,rgba(156,39,176,0) 0),linear-gradient(0deg,#d2d2d2 1px,hsla(0,0%,82%,0) 0); */
 }
 
 .container-mailing form input::placeholder{
@@ -433,6 +431,11 @@ input:focus {
     box-shadow: none;
     outline: none;
 }
+
+
+.btn-exept-mailing{
+    padding-left: 52px;
+} 
 
 
 /* ----------container download */
