@@ -172,8 +172,8 @@ bottom: 0;
 }
 
 .title-container-video{
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
     z-index: 4;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -383,11 +383,11 @@ bottom: 0;
 }
 
 .container-btn-block-tarifs.first{
-    padding-top: 46px;
+    padding-top: 78px;
 }
 
 .container-btn-block-tarifs.second{
-    padding-top: 43px;
+    padding-top: 48px;
 }
 
 .container-btn-block-tarifs.third{
@@ -402,7 +402,7 @@ bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 56px;
+    padding: 0 158px 0 162px;
 }
 
 .logo-mailing{
@@ -410,32 +410,33 @@ bottom: 0;
     color: #fff;
     font-family: 'Play', sans-serif;
     font-weight: 700;
-    padding-right: 50px;
 }
 
-.container-mailing form input{
-    font-size: 24px;
-    color: rgba(255, 255, 255, .7);
-    border: none;
-    width: 400px;
-    background: no-repeat top;
-    background-image: linear-gradient(0deg,#0BF4BC 2px,rgba(156,39,176,0) 0),linear-gradient(0deg,#d2d2d2 1px,hsla(0,0%,82%,0) 0); */
+.btn-mailing{
+    width: 289px;
+    height: 55px;
+    background-color: #0BF4BC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
 }
 
-.container-mailing form input::placeholder{
-    color: rgba(255, 255, 255, .7);
-    font-size: 24px;
-}
-
-input:focus {
-    box-shadow: none;
+.input-mailing{
+    width: 515px;
+    height: 55px;
+    border: 2px solid #fff;
+    background-color: #1F2631;
+    font-size: 20px;
+    color: #fff;
     outline: none;
+    padding-left: 24px;
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    border-radius: 7px;
 }
-
-
-.btn-exept-mailing{
-    padding-left: 52px;
-} 
 
 
 /* ----------container download */
@@ -462,6 +463,18 @@ input:focus {
 }
 
 
+/* ---------conteiner reviews */
+.container-reviews{
+
+}
+
+
+/* ----------container map */
+.container-map{
+    padding-top: 129px;
+}
+
+
 /* ----------footer---------- */
 .footer{
     height: 118px;
@@ -473,6 +486,14 @@ input:focus {
 .container-nav-footer{
     display: flex;
     align-items: center;
+}
+
+.lic{
+    padding-right: 44px;
+}
+
+.file{
+    padding-right: 35px;
 }
 
 .nav-link-footer{
