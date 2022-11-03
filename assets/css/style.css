@@ -43,6 +43,11 @@ img{
     text-decoration: underline;
     font-size: 25px;
     font-weight: 400;
+    transition: .8s;
+}
+
+.btn-exept:hover{
+    color: #fff;
 }
 
 .title{
@@ -375,6 +380,7 @@ bottom: 0;
     color: #000;
     font-size: 20px;
     font-weight: 400;
+    transition: .8s;
 }
 
 .btn-block-tarifs.aqua{
@@ -384,6 +390,14 @@ bottom: 0;
 
 .container-btn-block-tarifs.first{
     padding-top: 78px;
+}
+
+.btn-block-tarifs:hover{
+    background-color: #fff;
+}
+
+.btn-block-tarifs.aqua:hover{
+    color: #000;
 }
 
 .container-btn-block-tarifs.second{
@@ -465,13 +479,93 @@ bottom: 0;
 
 /* ---------conteiner reviews */
 .container-reviews{
+    height: 338.24px;
+}
 
+
+.container-block-reviews{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 108px;
+}
+
+.block-reviews{
+    width: 450px;
+    height: 198px;
+    border: 2px solid #1F2631;
+    background-color: #3A3A3A;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.body-block-reviews{
+    padding: 47px 111px 43px 44px;
+    display: grid;
+    gap: 38px;
+
+}
+
+.text-reviews{
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+}
+
+.logo-revw{
+    padding-left: 233px;
+}
+
+.container-name-reviews{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.tire{
+    width: 26px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.name-reviews{
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.icon-revw{
+    margin-left: 19.5%;
+    top: 425%;
+    position: absolute;
+}
+
+.second-r{
+    margin-left: 17%;
+}
+
+.third-r{
+    margin-left: 17.3%;
 }
 
 
 /* ----------container map */
 .container-map{
+    height: 637px;
     padding-top: 129px;
+    text-align: center;
+}
+
+.image-map{
+    padding-bottom: 64px;
+    max-height: 496px;
+
+}
+
+.line-bottom-map{
+    width: 100%;
+    border: 2px solid #0BF4BC;
 }
 
 
@@ -501,7 +595,12 @@ bottom: 0;
     color: #fff;
     font-family: 'Play', sans-serif;
     font-weight: 400;
+    transition: .8s;
 
+}
+
+.nav-link-footer:hover{
+    color: #0BF4BC;
 }
 
 .container-network{
