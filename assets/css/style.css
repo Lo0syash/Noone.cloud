@@ -264,7 +264,7 @@ bottom: 0;
 }
 
 .block-fast-play{
-    width: 210px;
+    width: 215px;
     height: 145px;
     display: grid;
     place-items: center;
@@ -474,6 +474,7 @@ bottom: 0;
     font-size: 21.33px;
     font-weight: 300;
     padding: 103px 0 83px 0;
+    line-height: 31.99px;
 }
 
 
@@ -509,6 +510,7 @@ bottom: 0;
     font-weight: 700;
     color: #fff;
     font-size: 16px;
+    line-height: 24px;
 }
 
 .logo-revw{
