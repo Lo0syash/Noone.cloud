@@ -65,11 +65,41 @@ img{
 }
 
 
+@media (max-width: 1200px) {
+    .image-how-work{
+        width: 500px;
+    }
+    
+    .content-text-how-work{
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 992px) {
+    .body-container-counter{
+        max-width: 750px;
+    }
+    
+    .content-text-how-work{
+        font-size: 19px;
+    }
+}
+@media (max-width: 767px) {
+
+}
+
 /* ----------header---------- */
 .header{
     display: flex;
     justify-content: space-between;
     padding: 19px 0 27px 0;
+}
+
+@media (max-width: 1200px) {
+    .header{
+        padding: 19px 25px 27px 25px;
+    }
+
 }
 
 .container-logotype{
@@ -107,7 +137,6 @@ img{
 .nav-link:hover{
     color: #0BF4BC;
 }
-
 /* ---------header-burger */
 
 /* .header-burger{
@@ -174,6 +203,7 @@ bottom: 0;
     text-align: center;
     display: grid;
     gap: 45px;
+
 }
 
 .title-container-video{
@@ -221,6 +251,72 @@ bottom: 0;
     border: 2px solid #fff;
 }
 
+@media (max-width: 1200px) {
+    .video-header{
+        min-width: 200px;
+        max-width: 1199px;
+    }
+
+    
+    .container-text-container-video{
+        padding-top: 150px;
+    }
+
+    .container-video{
+        height: 675px;
+    }
+
+}
+@media (max-width: 992px) {
+    .video-header{
+        min-width: 200px;
+        max-width: 991px;
+    }
+
+    .container-text-container-video{
+        padding-top: 100px;
+    }
+
+    .container-btn-header{
+        padding-top: 200px;
+    }
+
+    .title-container-video{
+        font-size: 19px;
+    }
+    
+    .logo-text-container-video{
+        font-size: 35px;
+    }
+
+    .container-video{
+        height: 559px;
+    }
+}
+@media (max-width: 767px) {
+    .video-header{
+        min-width: 200px;
+        max-width: 766px;
+    }
+
+    .container-btn-header{
+        padding-top: 100px;
+    }
+
+    .title-container-video{
+        font-size: 15px;
+    }
+    
+    .logo-text-container-video{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .video-header{
+        display: none;
+    }
+}
 /* ----------contaiener work */
 .container-how-work{
     padding: 129px 0;
@@ -242,6 +338,33 @@ bottom: 0;
     font-size: 36px;
     font-weight: 400;
     line-height: 126.5%;
+}
+
+@media (max-width: 1200px) {
+    .image-how-work{
+        width: 500px;
+    }
+    
+    .content-text-how-work{
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 992px) {
+    .body-container-counter{
+        max-width: 750px;
+    }
+    
+    .content-text-how-work{
+        font-size: 19px;
+    }
+}
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 500px) {
+
 }
 
 
