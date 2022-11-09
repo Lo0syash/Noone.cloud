@@ -1067,3 +1067,33 @@ bottom: 0;
     display: flex;
     gap: 33px;
 }
+
+
+@media (max-width:890px) {
+    .footer{
+        display: grid;
+        place-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:640px) {
+    .container-nav-footer{
+        padding-top: 15px;
+        padding-left: 30px;
+        text-align: center;
+        display: grid;
+        gap: 25px;
+        justify-content: center;
+        place-items: center;
+    }
+    .container-network{
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-network{
+        display: grids;
+    }
+}
