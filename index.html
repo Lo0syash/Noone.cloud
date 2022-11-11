@@ -13,6 +13,9 @@
 </head>
 <body>
     <div class="wrapper">
+        <a href="#" class="container-expand">
+            <img src="assets/images/expand_less_FILL0_wght400_GRAD0_opsz48.png" alt="expand-less">
+        </a>
         <header class="header">
             <a href="index.html" class="container-logotype">
                 <div class="icon-logotype">
@@ -227,10 +230,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="container-map">
+                <div class="container-map">
                     <div class="title">Локация сервера</div>
                     <img class="image-map" src="assets/images/Group 83.png" alt="map">
-                </div> -->
+                </div>
             </section>
         </main>
         <div class="line-bottom-map"></div>
@@ -255,4 +258,19 @@
     </div>
 </body>
 <script type="text/javascript" src="assets/js/script.js"></script>
+<script src="assets/js/jquery-3.6.1.min.js">
+    $(document).ready(function()){
+        var expand = $('.container-expand');
+        var scrollChange = 1;
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop;
+            if (scroll >= scrollChange){
+                expand.addClass('active');
+            }
+            else{
+                expand.removeClass('active');
+            }
+        });
+    };
+</script> 
 </html>
