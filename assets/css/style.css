@@ -140,12 +140,14 @@ img{
 }
 /* ---------header-burger */
 
-/* .header-burger{
-    display: block;
+.header-burger{
+    display: none;
     position: relative;
     width: 30px;
     height: 20px;
-    margin-right: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
 }
 .header-burger::after,
 .header-burger::before{
@@ -158,11 +160,11 @@ img{
 }
 
 .header-burger:after{   
-top: 0;
+    top: 0;
 }
 
 .header-burger::before{ 
-bottom: 0;
+    bottom: 0;
 }
 
 .header-burger span{
@@ -172,7 +174,52 @@ bottom: 0;
     width: 100%;
     height: 2px;
     top: 9px;
-} */
+} 
+
+.close-burger{
+    display: none;
+}
+
+@media (max-width:630px) {
+    .header-burger{
+        display: block;
+    }
+
+    .nav{
+        position: fixed;
+        transform: translateY(-3000px);
+        z-index: 998;
+        top: 8%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .95);
+        transition: .5s;
+    }
+
+    .nav.active{
+        display: grid;
+        transform: translateY(0px);
+    }
+
+    .nav ul{
+        display: grid;
+        text-align: center;
+    }
+
+    .nav-link{
+        font-size: 25px;
+    }
+
+    .close-burger{
+        position: absolute;
+        display: block;
+        right: 5%;
+        top: 3%;
+        z-index: 999;
+        cursor: pointer;
+    }
+}
 
 
 
@@ -865,7 +912,7 @@ bottom: 0;
 }
 
 
-.icon-revw{
+/* .icon-revw{
     margin-left: 19.5%;
     top: 425%;
     position: absolute;
@@ -877,7 +924,7 @@ bottom: 0;
 
 .third-r{
     margin-left: 17.3%;
-}
+} */
 
 @media (max-width: 1200px) {
     .block-reviews{
@@ -890,11 +937,11 @@ bottom: 0;
         padding: 30px 100px 40px 30px;
         }
 
-    .icon-revw{
+    /* .icon-revw{
         width: 100px;
         top: 432%;
         margin-left: 17%;
-    }
+    } */
 
     .tire{
         width: 20px;
@@ -917,12 +964,12 @@ bottom: 0;
         gap: 35px;
     }
 
-    .icon-revw{
+    /* .icon-revw{
         width: 100px;
         margin-left: 35%;
-    }
+    } */
 
-    .first-r{
+    /* .first-r{
         top: 492%;
         margin-left: 39%;
     }
@@ -933,7 +980,7 @@ bottom: 0;
 
     .third-r{
         top: 547%;
-    }
+    } */
 }
 
 @media (max-width: 500px) {
@@ -947,7 +994,7 @@ bottom: 0;
         gap: 35px;
     }
 
-    .icon-revw{
+    /* .icon-revw{
         width: 100px;
         margin-left: 50%;
     }
@@ -963,7 +1010,7 @@ bottom: 0;
 
     .third-r{
         top: 679%;
-    }
+    } */
 }
 
 @media (max-width: 320px) {
@@ -975,7 +1022,7 @@ bottom: 0;
         width: 300px;
     }
 
-    .icon-revw{
+    /* .icon-revw{
         width: 80px;
         margin-left: 60%;
     }
@@ -983,7 +1030,7 @@ bottom: 0;
     .first-r{
         top: 625%;
         margin-left: 69.5%;
-    }
+    } */
 }
 
 
