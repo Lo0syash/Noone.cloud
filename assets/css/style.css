@@ -1055,6 +1055,7 @@ img{
 
 @media (max-width: 500px) {
     .container-map{
+        display: none;
         height: 500px;
         margin-bottom: 50px;
     }
@@ -1136,6 +1137,16 @@ img{
     }
     .container-network{
         padding-right: 30px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .line-bottom-map{
+        margin-top: 80px;
+    }
+    .footer{
+        margin-top: 90px;
     }
 }
 
